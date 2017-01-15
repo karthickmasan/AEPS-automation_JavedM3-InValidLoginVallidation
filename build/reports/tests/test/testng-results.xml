@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[</br> click on login link]]>
+    </line>
+    <line>
+      <![CDATA[</br> click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[</br>verify validation message Please enter valid Email ID/Mobile number]]>
+    </line>
+    <line>
+      <![CDATA[</br>enter invalid user name]]>
+    </line>
+    <line>
+      <![CDATA[</br>click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[</br>verify validation message Please enter Password]]>
+    </line>
+    <line>
+      <![CDATA[</br>enter invalid user name]]>
+    </line>
+    <line>
+      <![CDATA[</br>enter wrong password]]>
+    </line>
+    <line>
+      <![CDATA[</br>click on sign in button]]>
+    </line>
+    <line>
+      <![CDATA[</br>verify validation message You are not registered with us. Please sign up]]>
+    </line>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="104462" started-at="2017-01-15T06:06:43Z" finished-at="2017-01-15T06:08:27Z">
+    <groups>
+    </groups>
+    <test name="Test Suite" duration-ms="104462" started-at="2017-01-15T06:06:43Z" finished-at="2017-01-15T06:08:27Z">
+      <class name="com.aeps.testscript.InValidLoginVallidation">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.aeps.testscript.InValidLoginVallidation@3e5c55d2]" name="setUp" is-config="true" duration-ms="53493" started-at="2017-01-15T11:36:43Z" finished-at="2017-01-15T11:37:36Z">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.aeps.testscript.InValidLoginVallidation@3e5c55d2]" name="beforeClass" is-config="true" duration-ms="20664" started-at="2017-01-15T11:37:36Z" finished-at="2017-01-15T11:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="VerifyLoginValidation()[pri:0, instance:com.aeps.testscript.InValidLoginVallidation@3e5c55d2]" name="VerifyLoginValidation" duration-ms="22552" started-at="2017-01-15T11:37:59Z" description="Desc: verify login validation" finished-at="2017-01-15T11:38:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[</br> click on login link]]>
+            </line>
+            <line>
+              <![CDATA[</br> click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[</br>verify validation message Please enter valid Email ID/Mobile number]]>
+            </line>
+            <line>
+              <![CDATA[</br>enter invalid user name]]>
+            </line>
+            <line>
+              <![CDATA[</br>click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[</br>verify validation message Please enter Password]]>
+            </line>
+            <line>
+              <![CDATA[</br>enter invalid user name]]>
+            </line>
+            <line>
+              <![CDATA[</br>enter wrong password]]>
+            </line>
+            <line>
+              <![CDATA[</br>click on sign in button]]>
+            </line>
+            <line>
+              <![CDATA[</br>verify validation message You are not registered with us. Please sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginValidation -->
+        <test-method status="PASS" signature="afterMainMethod()[pri:0, instance:com.aeps.testscript.InValidLoginVallidation@3e5c55d2]" name="afterMainMethod" is-config="true" duration-ms="6085" started-at="2017-01-15T11:38:21Z" finished-at="2017-01-15T11:38:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+      </class> <!-- com.aeps.testscript.InValidLoginVallidation -->
+    </test> <!-- Test Suite -->
+  </suite> <!-- Test Suite -->
+</testng-results>
